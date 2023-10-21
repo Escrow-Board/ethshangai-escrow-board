@@ -16,7 +16,8 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Image from 'next/future/image'
 import LogoImage from "../images/logo-full.png"
 import Container from 'react-bootstrap/Container';
-
+import '@particle-network/connect-react-ui/dist/index.css';
+import { ConnectButton } from '@particle-network/connect-react-ui';
 
 const Index: NextPage = () => {
 	const chain = getAddChainParameters(appChain);
@@ -51,7 +52,7 @@ const Index: NextPage = () => {
 					
 			</Navbar.Brand>
 					<div style={{display:"flex"}}>
-							                   
+                
 							<NavDropdown
 								style={{marginTop:"5px", marginRight:"20px"}}							
 								title="Account Details"

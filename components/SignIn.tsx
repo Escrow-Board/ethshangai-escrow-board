@@ -72,7 +72,7 @@ export const SignIn = ({ logIn }: any) => {
                         Sign In
                     </button>
                   
-                    <h3>Or</h3>
+                    {/* <h3>Or</h3>
                 <ModalProvider
                     walletSort={['Particle Auth', 'Wallet']}
                     particleAuthSort={[
@@ -123,7 +123,7 @@ export const SignIn = ({ logIn }: any) => {
                     >
                                   <ConnectButton />
                 
-                </ModalProvider>
+                </ModalProvider> */}
                 </div>
             </div>
         </div>

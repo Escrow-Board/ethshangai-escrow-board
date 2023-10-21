@@ -214,6 +214,18 @@ export const CHAINS: { [chainId: number]: BasicChainInformation | ExtendedChainI
     },
     blockExplorerUrls: ['https://explorer.goerli.linea.build'],
   },
+  11155111: {
+    urls: [
+      'https://rpc.notadegen.com/sepolia',
+    ],
+    name: 'Sepolia Testnet',
+    nativeCurrency: {
+      name: 'SepoliaTestnet',
+      symbol: 'SepoliaETH',
+      decimals: 18
+    },
+    blockExplorerUrls: ['https://sepolia.etherscan.io/'],
+  },
     1287: {
     urls: [
         'https://rpc.testnet.moonbeam.network',
